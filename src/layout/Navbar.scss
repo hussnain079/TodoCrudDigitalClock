@@ -1,0 +1,40 @@
+nav {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    span {
+      color: #333; 
+      font-size: 1.5rem;
+      margin-right: 10px;
+      text-decoration: none;
+    }
+    ul {
+      list-style: none;
+      align-items: center;
+      padding-right: 1rem;
+      margin: 0;
+      display: flex;
+      justify-content: space-between;
+      
+    li {
+        flex-grow: 0;   
+        &:first-child {
+          text-align: right;
+        }
+  
+        &:last-child {
+          text-align: right;
+          margin-left: 10px; 
+        }
+  
+        a {
+          text-decoration: none;
+          color: #333; 
+          font-weight: normal;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+  
